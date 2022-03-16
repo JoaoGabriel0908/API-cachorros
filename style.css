@@ -26,6 +26,7 @@ header button{
     background-color: #000000;
     color: violet;
     cursor: pointer;
+    width: 150px;
 }
 header button:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.432);

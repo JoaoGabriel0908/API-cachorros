@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="./modal.css">
     <title>Dog</title>
 </head>
 <body>
@@ -14,11 +15,30 @@
         <datalist id="lista-racas">
         </datalist>
         <button id="pesquisar">Pesquisar</button>
+        <button id="abrir-modal">Cadastrar</button>
     </header>
     <main>
         <div id="imagem-container">
             
         </div>
     </main>
+    <div class="modal-container" id="modal-container">
+        <div class="modal-content">
+            <section class="modal-inicio">
+                <h2>Teste de Modal</h2>
+            </section>
+            <form action="">
+                <label for="">Nome</label>
+                <input type="text" name="" id="">
+                <label for="">Celular</label>
+                <input type="text" name="" id="">
+                <label for="">E-mail</label>
+                <input type="text" name="" id="">
+            </form>
+            <footer>
+                <button id="fechar">Fechar</button>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>

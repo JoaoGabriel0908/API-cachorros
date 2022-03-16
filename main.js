@@ -49,3 +49,28 @@ const carregarRacas = async () =>{
 document.getElementById('pesquisar').addEventListener('click', carregarImagens)
 
 carregarRacas()
+
+const abrirModal = () =>{
+    document
+        .getElementById('modal-container')
+        .classList.add('active')
+} 
+
+const fecharModal = () =>{
+    document
+        .getElementById('modal-container')
+        .classList.remove('active')
+}
+
+// Modal
+document
+    .getElementById('abrir-modal')
+    .addEventListener('click', abrirModal)
+
+document
+    .getElementById('fechar')
+    .addEventListener('click', fecharModal)
+
+document
+    .getElementById('modal-container')
+    .addEventListener('click', fecharModal)
